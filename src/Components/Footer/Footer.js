@@ -1,6 +1,11 @@
+import { Container } from 'react-bootstrap';
 import '../Footer/Footer.css';
 
 import React from 'react';
+
+//favicon
+import { Linkedin, Twitter, Facebook, Instagram } from 'react-bootstrap-icons';
+
 
 const Footer = () => {
   return (
@@ -13,10 +18,10 @@ const Footer = () => {
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div className="social-links d-flex mt-4">
-              <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-              <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-              <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-              <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+              <a href="#" className="twitter"><Twitter/></a>
+              <a href="#" className="facebook"><Facebook/></a>
+              <a href="#" className="instagram"><Instagram/></a>
+              <a href="#" className="linkedin"><Linkedin/></a>
             </div>
           </div>
 
@@ -55,14 +60,14 @@ const Footer = () => {
         </div>
       {/* </div> */}
 
-      {/* <div className="container mt-4">
+      {/* <Container className="mt-4">
         <div className="copyright">
           &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
         </div>
         <div className="credits">
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
-      </div> */}
+      </Container>   */}
 
       <div className="mt-4">
         <div className="copyright">

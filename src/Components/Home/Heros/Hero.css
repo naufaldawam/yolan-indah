@@ -136,3 +136,10 @@
 .hero .icon-box:hover .icon {
   color: #fff;
 }
+
+
+.container-hero{
+  background-color: #008374 !important;
+  border: none !important;
+} 
+

@@ -3,13 +3,13 @@ import { CheckCircleFill  } from 'react-bootstrap-icons';
 // import Image from 'react-bootstrap/Image';
 
 // import image
-import ImageTwo from '../../assets/images/about-2.jpg'
-import ImageOne from '../../assets/images/about.jpg'
+import ImageTwo from '../../../assets/images/about-2.jpg'
+import ImageOne from '../../../assets/images/about.jpg'
 
 const AboutUs = () => {
   return (
     <section id="about" className="about">
-      <div data-aos="fade-up">
+      <div className="container container-aboutus" data-aos="fade-up">
         <div className="section-header">
           <h2>About Us</h2>
           <p>

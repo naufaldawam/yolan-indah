@@ -1,19 +1,20 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 import { PlayCircle, Easel, Gem, GeoAlt, Command } from 'react-bootstrap-icons';
 import './Hero.css';
+import 'glightbox';
 
 // import image
-import ImageHero from '../../assets/images/hero-img.svg'
+import ImageHero from '../../../assets/images/hero-img.svg'
 
 function Hero() {
   return (
     <section id="hero" className="hero">
-      <div className="position-relative">
+      <div className="container container-hero position-relative">
         <Row className="gy-5" data-aos="fade-in">
           <Col lg={6} order={{ xs: 2, lg: 1 }} className="d-flex flex-column justify-content-center text-center text-lg-start">
             <h2>
@@ -28,7 +29,7 @@ function Hero() {
               </Button>
               <a
                 href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                className="glightbox btn-watch-video d-flex align-items-center"
+                class="glightbox btn-watch-video d-flex align-items-center"
               >
                 <PlayCircle />
                 <span>Watch Video</span>

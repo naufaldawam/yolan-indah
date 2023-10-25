@@ -8,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 
+// import carousel
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
